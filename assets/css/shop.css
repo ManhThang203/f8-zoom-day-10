@@ -514,7 +514,8 @@ h1.heading{
 .course-pagination .pagination-dot{
     display: flex;
     align-items: center; 
-    /* transition: all 0.6s linear; */
+    justify-content: center;
+    transition: all 0.6s linear;
 }
 .pagination-dot li, .pagination-btn{
     transition: all 0.3s linear;

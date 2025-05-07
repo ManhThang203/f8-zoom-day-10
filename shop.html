@@ -7,6 +7,7 @@
     <!-- Styles -->
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/shop.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,120 +26,134 @@
                     <!-- Start Header -->
                      <div class="header">
                         <!-- Logo -->
-                         <a href="">
-                             <img src="./assets/img/logo.png" alt="logo">
-                         </a>
-
+                        <div class="logo-wrapper">
+                            <a href="#!">
+                                <img src="./assets/img/logo.png" alt="logo" class="logo">
+                               </a>
+                               <label for="drawer" class="drawer-open">
+                                  <i class="fa-solid fa-bars"></i>
+                               </label>
+                        </div>
                          <!-- Start Navigation -->
-                         <ul class="nav">
-                            <li>
-                                <a href="">Home</a>
-                                <ul class="submenu">
-                                    <li>
-                                        <a href="">Home version one</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Home version Two</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Home video background</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="">COURSES</a>
-                                <ul class="submenu">
-                                    <li>
-                                        <a href="">Course 2 Column  </a>
-                                    </li>
-                                    <li>
-                                        <a href="">Course 3 Column</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Course Details</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="">EVENTS</a>
-                                <ul class="submenu">
-                                    <li>
-                                        <a href="">Event List</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Event Grid</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Event Single</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="">Pages</a>
-                                <ul class="submenu">
-                                    <li>
-                                        <a href="">Our teachers</a>
-                                    </li>
-                                    <li>
-                                        <a href="">teachers profile</a>
-                                    </li>
-                                    <li>
-                                        <a href="">About Us</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Error page</a>
-                                    </li>
-                                    <li>
-                                        <a href="">FAQ Page</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Login</a>
-                                    </li>
-                                    <li>
-                                        <a href="">sign up</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="">PORTFOLIO</a>
-                                <ul class="submenu">
-                                    <li>
-                                        <a href="">portfolio 2 column</a>
-                                    </li>
-                                    <li>
-                                        <a href="">portfolio 3 column</a>
-                                    </li>
-                                    <li>
-                                        <a href="">portfolio 4 column</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="">BLOG</a>
-                                <ul class="submenu">
-                                    <li>
-                                        <a href="">Blog</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Blog details</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="">SHOP</a>
-                                <ul class="submenu">
-                                    <li>
-                                        <a href="">Shop Page</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Shop Details</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="">Contact</a>
-                            </li>
-                          </ul>
+                         <input type="checkbox" name="" hidden id="drawer">
+                         <label for="drawer" class="drawer-overday"></label>
+                         <div class="nav-wrapper">
+                            <a class="nav-logo" href="#!">
+                                <img src="./assets/img/logo.png" alt="logo" class="logo">
+                            </a>
+                            <label for="drawer" class="close-wrapper">
+                                <i class="fa-solid fa-xmark"></i>
+                             </label>
+                             <ul class="nav">
+                                <li>
+                                    <a href="#!">Home</a>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="#!">Home version one</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">Home version Two</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">Home video background</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#!">COURSES</a>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="#!">Course 2 Column  </a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">Course 3 Column</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">Course Details</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#!">EVENTS</a>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="#!">Event List</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">Event Grid</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">Event Single</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#!">Pages</a>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="#!">Our teachers</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">teachers profile</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">Error page</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">FAQ Page</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">Login</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">sign up</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#!">PORTFOLIO</a>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="#!">portfolio 2 column</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">portfolio 3 column</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">portfolio 4 column</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#!">BLOG</a>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="#!">Blog</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">Blog details</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#!">SHOP</a>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="#!">Shop Page</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">Shop Details</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#!">Contact</a>
+                                </li>
+                              </ul>
+                         </div>
                          <!-- End Navigation -->
                          <!-- User action -->
                          <div class="action-wrapper">
@@ -188,10 +203,12 @@
                     <!-- Start sidebar -->
                       <div class="sidebar">
                         <!-- Start search form -->
-                         <form action="" class="search-form" autocomplete="off">
-                            <input type="text" placeholder="Search Product..." spellcheck="false" class="search-input">
-                            <button class="search-btn">Search</button>
-                         </form>
+                         <div class="form">
+                             <form action="" class="search-form" autocomplete="off">
+                                <input type="text" placeholder="Search Product..." spellcheck="false" class="search-input">
+                                <button class="search-btn">Search</button>
+                             </form>
+                         </div>
                          <h2 class="menu-title">Shop Categories :</h2>
                          <ul class="menu">
                             <li>
@@ -462,24 +479,24 @@
                                 </div>
                             </div>
                             <!-- End courses item -->
-                          <!-- Start Pagination -->
-                        <div class="course-pagination">
-                            <ul class="pagination-dot">
-                                <li class="">
-                                    <a href="">1</a>
-                                </li>
-                                <li>
-                                    <a href="">2</a>
-                                </li>
-                                <li>
-                                    <a href="">3</a>
-                                </li>
-                                <button class="pagination-btn">
-                                    <i class="fa-solid fa-arrow-right"></i>
-                                </button>
-                            </ul>
                         </div>
-                     </div>
+                        <!-- Start Pagination -->
+                      <div class="course-pagination">
+                          <ul class="pagination-dot">
+                              <li class="">
+                                  <a href="">1</a>
+                              </li>
+                              <li>
+                                  <a href="">2</a>
+                              </li>
+                              <li>
+                                  <a href="">3</a>
+                              </li>
+                              <button class="pagination-btn">
+                                  <i class="fa-solid fa-arrow-right"></i>
+                              </button>
+                          </ul>
+                      </div>
                     <!-- End main content -->
                 </div>
             </div>
@@ -571,6 +588,7 @@
                 <div class="footer-column_5">
                     <h2 class="footer-title">Subscribe Us</h2>
                     <p class="desc-3">Subscribe us to get all the latest news from us</p>
+                  
                     <form action="" autocomplete="off" class="fomr-footer">
                         <input type="text" placeholder="Your Email..." spellcheck="false" class="input-footer">
                     </form>
