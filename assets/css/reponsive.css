@@ -48,6 +48,7 @@
     }
     .section{
         flex-wrap: wrap;
+        gap: 5px;
     }
     .section p {
         margin-top: 20px;
@@ -145,7 +146,10 @@
         right: 17px;
     }
     .options{
-        min-width: 375px;
+        min-width: 383px;
+    }
+    .options li {
+        width: 100%;
     }
     .info .bottom .course-btn{
         min-width: 130px;
